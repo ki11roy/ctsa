@@ -1,0 +1,31 @@
+ADD_LIBRARY(ctsa
+    boxjenkins.cc
+    brent.cc
+    conjgrad.cc
+    conv.cc
+    ctsa.cc
+    dist.cc
+    emle.cc
+    erfunc.cc
+    filter.cc
+    hsfft.cc
+    initest.cc
+    lls.cc
+    lnsrchmp.cc
+    matrix.cc
+    neldermead.cc
+    newtonmin.cc
+    nls.cc
+    optimc.cc
+    pdist.cc
+    polyroot.cc
+    pred.cc
+    real.cc
+    regression.cc
+    secant.cc
+    spectrum.cc
+    stats.cc
+    talg.cc
+)
+
+SET_TARGET_PROPERTIES(ctsa PROPERTIES LINKER_LANGUAGE CXX)
